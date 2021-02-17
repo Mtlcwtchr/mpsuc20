@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.42  C:\Users\St.Anislav\Documents\asmlabs\lab41\lab42.asm Wed Feb 17 14:41:29 2021
+AVRASM ver. 2.1.42  C:\Users\St.Anislav\Documents\asmlabs\lab41\lab42.asm Thu Feb 18 00:53:26 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -694,15 +694,19 @@ EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
 CSEG Reset        00000034
-CSEG TIMER0_OVF   00000071
-CSEG off          0000004e
-CSEG main         00000050
-CSEG s1           0000005d
-CSEG s2           0000005f
-CSEG print        00000061
-CSEG s1_proceed   00000074
-CSEG s2_proceed   00000084
-CSEG skip_s1_set  0000007b
-CSEG ret_s1       00000083
-CSEG skip_s2_set  0000008b
-CSEG ret_s2       0000008d
+CSEG TIMER0_OVF   00000090
+CSEG clear_cmprs  00000049
+CSEG clear_counter 0000004b
+CSEG main         0000004c
+CSEG delay        00000051
+CSEG s1           00000059
+CSEG s2           0000005b
+CSEG print        0000005d
+CSEG s1_proceed   00000061
+CSEG s2_proceed   00000075
+CSEG modify_out   00000083
+CSEG skip_s1_set  0000006c
+CSEG ret_s1       00000074
+CSEG skip_s2_set  00000080
+CSEG ret_s2       00000082
+CSEG ret_modify_out 0000008f
