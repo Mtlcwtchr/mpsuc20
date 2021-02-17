@@ -31,59 +31,92 @@
 .org INT_VECTORS_SIZE
 
 Ext_INT0:
+	   ;increment low-digit value
        inc r24
+	   ;increment counter
 	   inc r25
+	   ;check if low-digit value exceeded 9
        cpi r24, 0x3A
+	   ;if not skip high-digit increment
        brne checklimit
+	   ;if exceeded increment high-digit value
        inc r23
+	   ;set low-digit value to 0 (ascii-code)
 	   ldi r24, 0x30
 
 checklimit:
-	   cpi r25, 0x85
+	   ;check if counter is exceeded max value
+	   cpi r25, 0x86
+	   ;if exceeded jump to decrement
 	   breq Ext_INT1
-	   
+
 ret0:  reti
 
+
 Ext_INT1:
+	   ;decrease low-digit value
        dec r24
+	   ;decrease counter
 	   dec r25
+	   ;check if low-digit value is less than ascii-code of 0
        cpi r24, 0x2F
+	   ;if not return
        brne ret1
+	   ;if true set low-digit value to 9
        ldi r24, 0x39
+	   ;decrease high-digit value
 	   dec r23
+	   ;check if high-digit value is less than ascii-code of 0
 	   cpi r23, 0x2F
+	   ;if not return
 	   brne ret1
+	   ;if true clear all counters
 	   rcall clearall
 ret1:  reti
 
 Reset: 
+	   ;configure stack
 	   ldi r16,Low(RAMEND)
        out SPL,r16
        ldi r16,High(RAMEND)
        out SPH,r16
+	   ;configure EIMSK (allow INT0, INT1)
        ldi r16,0b00000011
        out EIMSK,r16
+	   ;configure EICRA (allow external interrupts)
        ldi r16,0b00001010
        sts EICRA,r16
+	   ;configure interrupts globally
        sei
+
+	   ;configure PORTC to all-input
        clr r16
        out DDRC, r16
+	   ;init LCD
        rcall LCD_Init
-
+	   ;clear both counter-handling registers
 	   rcall clearall
 
 main:  
+		;check if PC5 port clear (clear button pressed)
 	    sbis PINC, 5
+		;if clear call counter-clearing function
         rcall clearall
-        sts 0x0200, r23
-		sts 0x0201, r24
+		;write counter to memory
+        sts 0x0200, r23 ;high digit
+		sts 0x0201, r24 ;low digit
+		;configure LCD to show 2 digits
         ldi r17,0x02
+		;update LCD (show actual value)
         rcall LCD_Update
         rjmp main
 
 clearall:
+		;clear low-digit counter (set to ascii-code of 0)
 		ldi r23, 0x30
+		;clear low-digit counter (set to ascii-code of 0)
 		ldi r24, 0x30
+		;clear smth idr
 		ldi r25, 0x06
 		ret
 
