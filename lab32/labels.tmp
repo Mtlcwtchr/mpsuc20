@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>C:\Users\St.Anislav\Documents\asmlabs\lab32</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\St.Anislav\Documents\asmlabs\lab32\lab32.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab32\lab32.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab32\lab32.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab32\lab32.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab32\lab32.asm</FILE><LINE>3</LINE></init>
+  <main><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab32\lab32.asm</FILE><LINE>19</LINE></main>
+  <off><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab32\lab32.asm</FILE><LINE>31</LINE></off>
+  <nozero><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab32\lab32.asm</FILE><LINE>27</LINE></nozero>
+  <end><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab32\lab32.asm</FILE><LINE>33</LINE></end>
+  <checklimit><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab32\lab32.asm</FILE><LINE>41</LINE></checklimit>
+  <print><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab32\lab32.asm</FILE><LINE>46</LINE></print>
+ </LABELS>
+</ASSEMBLER_INFO>

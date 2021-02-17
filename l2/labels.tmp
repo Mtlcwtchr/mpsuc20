@@ -1,0 +1,44 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>C:\Users\St.Anislav\Documents\asmlabs\l2</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <q4><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>67</LINE></q4>
+  <q1><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>7</LINE></q1>
+  <q2><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>21</LINE></q2>
+  <iftrue><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>35</LINE></iftrue>
+  <q3><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>39</LINE></q3>
+  <setres><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>63</LINE></setres>
+  <array><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>89</LINE></array>
+  <c1><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>74</LINE></c1>
+  <c2><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>77</LINE></c2>
+  <s><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>81</LINE></s>
+  <end><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>162</LINE></end>
+  <q5><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>92</LINE></q5>
+  <div4><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>140</LINE></div4>
+  <mul4><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>110</LINE></mul4>
+  <noinc1><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>118</LINE></noinc1>
+  <noinc2><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>122</LINE></noinc2>
+  <noinc3><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>127</LINE></noinc3>
+  <noinc4><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>131</LINE></noinc4>
+  <endq5><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>160</LINE></endq5>
+  <noset1><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>149</LINE></noset1>
+  <noset2><FILE>C:\Users\St.Anislav\Documents\asmlabs\l2\lab2.asm</FILE><LINE>155</LINE></noset2>
+ </LABELS>
+</ASSEMBLER_INFO>

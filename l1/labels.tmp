@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>C:\Users\St.Anislav\Documents\asmlabs\l1</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <q1><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>5</LINE></q1>
+  <q2><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>15</LINE></q2>
+  <q3><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>34</LINE></q3>
+  <q4><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>55</LINE></q4>
+  <div><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>62</LINE></div>
+  <endiv><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>68</LINE></endiv>
+  <q5><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>73</LINE></q5>
+  <p2><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>110</LINE></p2>
+  <p1><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>94</LINE></p1>
+  <noinc><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>101</LINE></noinc>
+  <res><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>129</LINE></res>
+  <nodec><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>120</LINE></nodec>
+  <end><FILE>C:\Users\St.Anislav\Documents\asmlabs\l1\lab1.asm</FILE><LINE>135</LINE></end>
+ </LABELS>
+</ASSEMBLER_INFO>

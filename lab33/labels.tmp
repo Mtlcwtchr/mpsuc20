@@ -1,0 +1,47 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>C:\Users\St.Anislav\Documents\asmlabs\lab33</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328pdef.inc</FILE>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.asm</FILE><LINE>59</LINE></RESET>
+  <Ext_INT0><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.asm</FILE><LINE>33</LINE></Ext_INT0>
+  <Ext_INT1><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.asm</FILE><LINE>47</LINE></Ext_INT1>
+  <checklimit><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.asm</FILE><LINE>41</LINE></checklimit>
+  <ret0><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.asm</FILE><LINE>45</LINE></ret0>
+  <ret1><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.asm</FILE><LINE>57</LINE></ret1>
+  <clearall><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.asm</FILE><LINE>84</LINE></clearall>
+  <LCD_Init><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>70</LINE></LCD_Init>
+  <main><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\lab33.asm</FILE><LINE>75</LINE></main>
+  <LCD_Update><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>54</LINE></LCD_Update>
+  <Wait5ms><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>177</LINE></Wait5ms>
+  <LCD_Cmd1_2Byte><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>133</LINE></LCD_Cmd1_2Byte>
+  <m2><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>61</LINE></m2>
+  <LCD_SendDat><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>139</LINE></LCD_SendDat>
+  <Wait38ms><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>184</LINE></Wait38ms>
+  <LCD_Cmd1Byte><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>155</LINE></LCD_Cmd1Byte>
+  <LCD_WriteNibble><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>113</LINE></LCD_WriteNibble>
+  <LCD_Send1_2Byte><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>144</LINE></LCD_Send1_2Byte>
+  <Wait50us><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>164</LINE></Wait50us>
+  <Wait51><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>166</LINE></Wait51>
+  <Wait150us><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>171</LINE></Wait150us>
+  <Wait501><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>179</LINE></Wait501>
+  <Wait381><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab33\hd44780.asm</FILE><LINE>186</LINE></Wait381>
+ </LABELS>
+</ASSEMBLER_INFO>

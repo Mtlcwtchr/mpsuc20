@@ -1,0 +1,40 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>C:\Users\St.Anislav\Documents\asmlabs\lab35</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Reset><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>9</LINE></Reset>
+  <ADC_Int><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>42</LINE></ADC_Int>
+  <main><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>40</LINE></main>
+  <proceed_delta><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>54</LINE></proceed_delta>
+  <set_decrease_flag><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>67</LINE></set_decrease_flag>
+  <clear_decrease_flag><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>76</LINE></clear_decrease_flag>
+  <cycle><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>82</LINE></cycle>
+  <borrow><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>98</LINE></borrow>
+  <on_decrease><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>94</LINE></on_decrease>
+  <inccounter><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>135</LINE></inccounter>
+  <deccounter><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>157</LINE></deccounter>
+  <check_rest><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>109</LINE></check_rest>
+  <save_rest><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>126</LINE></save_rest>
+  <on_decrease_by_rest><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>121</LINE></on_decrease_by_rest>
+  <return_proceed_delta><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>130</LINE></return_proceed_delta>
+  <ret2><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>154</LINE></ret2>
+  <ret3><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab35\lab35.asm</FILE><LINE>180</LINE></ret3>
+ </LABELS>
+</ASSEMBLER_INFO>

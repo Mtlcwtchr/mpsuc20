@@ -1,0 +1,41 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>C:\Users\St.Anislav\Documents\asmlabs\lab34</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>42</LINE></RESET>
+  <Ext_INT0><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>33</LINE></Ext_INT0>
+  <Ext_INT1><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>37</LINE></Ext_INT1>
+  <checkstate><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>86</LINE></checkstate>
+  <ret0><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>35</LINE></ret0>
+  <ret1><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>39</LINE></ret1>
+  <main><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>71</LINE></main>
+  <case0><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>107</LINE></case0>
+  <case1><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>114</LINE></case1>
+  <case2><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>121</LINE></case2>
+  <case3><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>128</LINE></case3>
+  <cb><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>104</LINE></cb>
+  <ic><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>136</LINE></ic>
+  <dc><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>140</LINE></dc>
+  <inccounter><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>145</LINE></inccounter>
+  <deccounter><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>167</LINE></deccounter>
+  <ret2><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>164</LINE></ret2>
+  <ret3><FILE>C:\Users\St.Anislav\Documents\asmlabs\lab34\lab34.asm</FILE><LINE>190</LINE></ret3>
+ </LABELS>
+</ASSEMBLER_INFO>
